@@ -1,0 +1,20 @@
+.progItmContainer {
+  padding: 10px !important;
+}
+
+.progItmContent {
+  padding: 0px !important;
+}
+
+.cardTitle {
+  font-size: 12px;
+  font-weight: 700;
+  color: #212B36;
+  margin-bottom: 10px;
+}
+
+.linearBarCont {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

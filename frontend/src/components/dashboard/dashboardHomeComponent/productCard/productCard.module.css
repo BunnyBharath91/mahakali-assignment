@@ -1,0 +1,119 @@
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px !important;
+}
+
+.itemContent {
+  padding: 20px !important;
+  width: 100%;
+  height: 100%;
+}
+
+.productTitles {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+
+.prodHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prodSecHeading {
+  font-size: 16px;
+  font-weight: 400;
+  color: #a1a1a1;
+}
+
+.mainHeading {
+  font-size: 18px;
+  font-weight: 700;
+  color: #212b36;
+}
+
+.subRowContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prodListType {
+  min-width: 90px;
+  width: 90px;
+  min-height: 30px;
+  height: 30px;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  background-color: #f4f6f8;
+  border-radius: 8px;
+  border: none;
+}
+
+.prodContainer {
+  display: flex;
+  gap: 15px;
+}
+
+.prodIcon {
+  min-width: 48px;
+  min-height: 48px;
+  width: 48px;
+  height: 48px;
+  max-height: 48px;
+  max-width: 48px;
+}
+
+.prodIcon > img {
+  height: 48px;
+  border-radius: 10px;
+}
+
+.prodRowCont {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.prodBubInfoCont {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.prodNamePriceCont {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.prodTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #212121;
+}
+
+.prodPrice {
+  font-weight: 500;
+  font-size: 14px;
+  color: #a1a1a1;
+}
+
+.prodVal {
+  font-weight: 600;
+  font-size: 14px;
+  color: #212121;
+}
+
+.rowBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.rowSperation {
+  border-bottom: 1px solid #bababa;
+}

@@ -1,0 +1,49 @@
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5% !important;
+
+  background: #fffaee !important;
+  aspect-ratio: 1;
+}
+
+.itemContent {
+  padding: 20px !important;
+  width: 100%;
+  height: 100%;
+}
+
+.sellTitle {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.sellerInsightIconCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 20px;
+}
+
+.rowsCont {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.rowContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowTitle {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.rowVal {
+  font-weight: 600;
+  font-size: 14px;
+  color: #3f59a3;
+}

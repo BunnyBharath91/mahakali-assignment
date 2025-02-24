@@ -1,0 +1,60 @@
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemContent {
+  padding: 20px !important;
+
+  border-radius: 12px !important;
+}
+
+.saleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.selectType {
+  min-width: 90px;
+  width: 90px;
+  min-height: 30px;
+  height: 30px;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  border: none !important;
+  background-color: #f4f6f8;
+  border-radius: 8px;
+}
+
+.menuItem {
+  min-width: 90px;
+  width: 90px;
+  max-height: 30px !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 1;
+}
+
+.salesTitle {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #212b36;
+}
+
+.salesinfoMsg {
+  font-size: 12px !important;
+  font-weight: 600 !important;
+}
+
+.saleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selectCont {
+  display: flex;
+  gap: 10px;
+}

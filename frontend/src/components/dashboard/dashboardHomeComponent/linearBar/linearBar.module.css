@@ -1,0 +1,27 @@
+.lbContainer {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+
+.lbTitleContainer {
+  display: flex;
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 600;
+  justify-content: space-between;
+}
+
+.barName {
+  color: #9b9b9b;
+}
+
+.barValue {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.linearProgress {
+  border-radius: 10px;
+  height: 6px !important;
+}

@@ -1,0 +1,71 @@
+.itemContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5% !important;
+
+  background: #effff4 !important;
+}
+
+.itemContent {
+  padding: 20px !important;
+  width: 100%;
+  height: 100%;
+}
+
+.currBalTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #212b36;
+}
+
+.currBalVal {
+  font-weight: 700;
+  font-size: 28px;
+  color: #212b36;
+}
+
+.balContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.balTitle {
+  font-weight: 600;
+  font-size: 14px;
+  color: #637381;
+}
+
+.balVal {
+  font-weight: 700;
+  font-size: 14px;
+  color: #212b36;
+}
+
+.subBalContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 28px;
+}
+
+.currBalCont {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-bottom: 18px;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.withdrawBtn {
+  background: #00c53c !important;
+  text-transform: none !important;
+  font-size: 14px !important;
+  font-weight: 700 !important;
+  width: 50%;
+  border-radius: 8px !important;
+}
